@@ -1,5 +1,0 @@
-rule_id,pattern_name,matched_trade_ids,matched_trade_count,associated_loss_inr,threshold_used
-BR-01,Holding losing trades longer,TM-001;TM-004;TM-007;TM-010;TM-013;TM-016;TM-019;TM-022;TM-025;TM-028;TM-031;TM-034;TM-037;TM-040;TM-043;TM-046;TM-049;TM-052;TM-055;TM-058;TM-061;TM-064;TM-067;TM-070;TM-073;TM-076;TM-079;TM-082;TM-085;TM-088;TM-097;TM-098,32,27650,median losing holding duration >= 2 x median winning holding duration
-BR-02,Trading shortly after a loss,TM-092;TM-094;TM-096,3,18000,next trade opens <= 30 minutes after prior loss closes
-BR-03,Oversized positions,TM-097;TM-098,2,14000,notional >= 2 x median comparable notional
-BR-04,Trading close to expiry,TM-099;TM-100,2,9000,opened <= 24 hours before expiry
