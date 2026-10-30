@@ -1,0 +1,17 @@
+TradeMirror planted habits validation report
+
+Total trades: 100
+Winning trades: 60
+Losing trades: 40
+Median winning holding duration: 30 minutes
+Median losing holding duration: 100 minutes
+Median comparable trade notional: INR 21,655
+Oversized losing trades: 2
+Post-loss follow-up trades: 3
+Losing trades opened within 24 hours of expiry: 2
+
+Pattern ranking by associated loss:
+BR-01 | Holding losing trades longer | INR 27,650 | 32 matched trades
+BR-02 | Trading shortly after a loss | INR 18,000 | 3 matched trades
+BR-03 | Oversized positions | INR 14,000 | 2 matched trades
+BR-04 | Trading close to expiry | INR 9,000 | 2 matched trades
